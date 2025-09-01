@@ -1,0 +1,7 @@
+com/example/productos/domain/ProductoRepositoryIntegrationTest.class
+com/example/productos/controller/ProductoControllerIT.class
+com/example/productos/service/ProductoServiceTest.class
+com/example/productos/domain/ProductoServiceIntegrationTest.class
+com/example/productos/domain/ProductoControllerIntegrationTest.class
+com/example/productos/repository/ProductoRepositoryTest.class
+com/example/productos/controller/ProductoControllerIT$1.class
