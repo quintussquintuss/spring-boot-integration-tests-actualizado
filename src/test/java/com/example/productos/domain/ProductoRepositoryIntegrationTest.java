@@ -1,6 +1,5 @@
 package com.example.productos.domain;
 
-import com.example.productos.domain.Producto;
 import com.example.productos.repository.ProductoRepository;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

@@ -50,6 +50,54 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
       </plugin>
+      
+      <!-- Plugin JaCoCo para cobertura de código -->
+      <plugin>
+        <groupId>org.jacoco</groupId>
+        <artifactId>jacoco-maven-plugin</artifactId>
+        <version>0.8.11</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>prepare-agent</goal>
+            </goals>
+          </execution>
+          <execution>
+            <id>report</id>
+            <phase>test</phase>
+            <goals>
+              <goal>report</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      
+      <!-- Plugin PMD para análisis estático de código -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-pmd-plugin</artifactId>
+        <version>3.21.2</version>
+        <configuration>
+          <linkXRef>false</linkXRef>
+          <sourceEncoding>UTF-8</sourceEncoding>
+          <minimumTokens>100</minimumTokens>
+          <targetJdk>17</targetJdk>
+          <analysisCache>true</analysisCache>
+          <analysisCacheLocation>${project.build.directory}/pmd/pmd.cache</analysisCacheLocation>
+          <printFailingErrors>true</printFailingErrors>
+          <failOnViolation>false</failOnViolation>
+        </configuration>
+        <executions>
+          <execution>
+            <goals>
+              <goal>check</goal>
+              <goal>cpd-check</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      
+
     </plugins>
   </build>
 </project>

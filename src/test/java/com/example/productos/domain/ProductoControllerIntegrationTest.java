@@ -1,7 +1,6 @@
 package com.example.productos.domain;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.example.productos.domain.Producto;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

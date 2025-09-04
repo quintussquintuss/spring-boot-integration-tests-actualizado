@@ -46,7 +46,16 @@ src/
      └─ resources/application-test.properties
 ```
 
-## Actividades sugeridas
+## 📚 Documentación Completa
+
+Este proyecto incluye documentación exhaustiva:
+
+- **📖 [Documentación Técnica Completa](DOCUMENTACION_COMPLETA_PROYECTO.md)** - Guía técnica completa del proyecto
+- **🔨 [Construcción Paso a Paso](CONSTRUCCION_APLICATIVO_PASO_A_PASO.md)** - Cómo se construyó el aplicativo
+- **✅ [Análisis de Cumplimiento](ANALISIS_COMPLETO_PROYECTO.md)** - Verificación de requisitos
+- **📋 [Índice de Documentación](INDICE_DOCUMENTACION.md)** - Navegación por toda la documentación
+
+## 🚀 Actividades sugeridas
 1. Agregar validaciones (Bean Validation) y probar errores 400.
 2. Añadir endpoints PUT/PATCH y sus pruebas.
 3. Medir cobertura con JaCoCo.

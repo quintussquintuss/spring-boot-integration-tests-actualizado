@@ -1,7 +1,6 @@
 package com.example.productos.service;
 
 import com.example.productos.domain.Producto;
-import com.example.productos.repository.ProductoRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -17,8 +16,6 @@ class ProductoServiceTest {
 
     @Autowired
     private ProductoService service;
-    @Autowired
-    private ProductoRepository repository;
 
     @Test
     void crearYObtenerProducto() {
